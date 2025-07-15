@@ -15,7 +15,7 @@ This is a React (Vite) frontend application implementing user authentication, pa
 2. **Navigate to the project directory:**
 
     ```bash
-    cd frontend-auth-app
+    cd auth-frontend
 3. **Install dependencies:**
 
     ```bash
@@ -28,8 +28,10 @@ This is a React (Vite) frontend application implementing user authentication, pa
 
     ```arduino
     http://localhost:5000
+
 # Node.js Version Required
-  Node.js v18.0.0 or higher
+  Node.js v22.16.0 or higher
+
 # Completed Features
 
 ## `SignupPage.jsx`
@@ -49,7 +51,7 @@ This is a React (Vite) frontend application implementing user authentication, pa
 ## `LoginPage.jsx`
 - Email/password login with validation.
 - "Remember Me" functionality using `localStorage` and `sessionStorage`.
-- Includes a "Forgot Password?" link that navigates to the password reset flow.
+- Includes a "Forgot Password" link that navigates to the password reset flow.
 - Redirects to Profile page on successful login.
 - **POST**: `/api/auth/login`
 
@@ -118,6 +120,7 @@ Includes embedded forms to edit personal information and password.
 All known bugs have been handled during development. As of now, no bugs are known to exist.
 
 ---
+# AI Contribution
 ### AI-Written Code: ~30%
 The AI assisted in:
 
